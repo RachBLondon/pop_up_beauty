@@ -3,48 +3,56 @@
     color: white;
     height: 70vh;
 }
-.c-nav  {
-  background-color: white !important;
-  color: #4ABDAC;
+.c-nav {
+    background-color: white !important;
+    color: #4ABDAC;
 }
-
 .c-nav .c-nav__item:hover {
-  background-color: #EEB6B7 !important;
+    background-color: #99CED4; !important;
 }
-
 .c-heading--xlarge {
-  font-family:'Poiret One';
-  font-size: 6.5em;
+    font-family: 'Poiret One';
+    font-size: 6.5em;
 }
 .u-pink {
-  color: #EEB6B7;
+    color: #EEB6B7;
+    font-family: 'Poiret One';
 }
-.u-pink:hover{
-  color: white;
+.u-pink:hover {
+    color: white;
 }
-
 .c-cta {
-  background-color: #EEB6B7;
-  width: 200px;
-  height: 50px;
-  position: absolute;
-  top: -15vh;
-  color: white;
+    background-color: #EEB6B7;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: -15vh;
+    color: white;
 }
 .c-cta h3 {
-  margin: 10px;
+    margin: 10px;
 }
-.c-cta:hover{
-  background-color: #99CED4;
+.c-cta:hover {
+    background-color: #99CED4;
+}
+@media (max-width: 200px) {
+    .c-heading--xlarge {
+        font-family: 'Poiret One';
+        font-size: 2em;
+    }
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
-  .c-heading--xlarge {
-    font-family:'Poiret One';
-    font-size: 4em;
-  }
-
+@media (min-width: 201px)and (max-width: 370px) {
+    .c-heading--xlarge {
+        font-family: 'Poiret One';
+        font-size: 3em;
+    }
+}
+@media (min-width: 481px) and (max-width: 670px) {
+    .c-heading--xlarge {
+        font-family: 'Poiret One';
+        font-size: 4em;
+    }
 }
 
 /*color scheme
