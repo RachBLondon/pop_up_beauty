@@ -1,0 +1,51 @@
+.u-background-img {
+    background-color: #4ABDAC;
+    color: white;
+    height: 70vh;
+}
+.c-nav  {
+  background-color: white !important;
+  color: #4ABDAC;
+}
+
+.c-nav .c-nav__item:hover {
+  background-color: #EEB6B7 !important;
+}
+
+.c-heading--xlarge {
+  font-family:'Poiret One';
+  font-size: 6.5em;
+}
+.u-pink {
+  color: #EEB6B7;
+}
+.u-pink:hover{
+  color: white;
+}
+
+.c-cta {
+  background-color: #EEB6B7;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  top: -15vh;
+  color: white;
+}
+.c-cta h3 {
+  margin: 10px;
+}
+.c-cta:hover{
+  background-color: #99CED4;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  .c-heading--xlarge {
+    font-family:'Poiret One';
+    font-size: 4em;
+  }
+
+}
+
+/*color scheme
+https://designschool.canva.com/blog/website-color-schemes/*/
