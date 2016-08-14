@@ -42,16 +42,23 @@
     }
 }
 
-@media (min-width: 201px)and (max-width: 370px) {
+@media (min-width: 201px)and (max-width: 300px) {
+    .c-heading--xlarge {
+        font-family: 'Poiret One';
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 301px)and (max-width: 370px) {
     .c-heading--xlarge {
         font-family: 'Poiret One';
         font-size: 3em;
     }
 }
-@media (min-width: 481px) and (max-width: 670px) {
+@media (min-width: 371px) and (max-width: 670px) {
     .c-heading--xlarge {
         font-family: 'Poiret One';
-        font-size: 4em;
+        font-size: 3.5em;
     }
 }
 
