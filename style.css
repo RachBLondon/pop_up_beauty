@@ -62,5 +62,36 @@
     }
 }
 
+.c-price-list table {
+    margin: auto;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.c-price-list table th {
+    font-family: 'Poiret One';
+    font-size: 1.6em;
+    padding: 6%;
+}
+
+.c-footer {
+    width: 100%;
+    height: 36vh;
+    background-color:#99CED4;
+
+}
+
+.c-footer h2 {
+    font-family: 'Poiret One';
+    font-size: 3em;
+    margin: 3%;
+}
+
+.c-footer a {
+    color: black;
+}
+.c-footer a:hover {
+    color: #EEB6B7;
+}
 /*color scheme
 https://designschool.canva.com/blog/website-color-schemes/*/
